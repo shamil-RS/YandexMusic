@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
                     topBar = {
                         Row(
                             modifier = Modifier
-                                .padding(20.dp)
+                                .padding(horizontal = 20.dp, vertical = 30.dp)
                                 .fillMaxWidth()
                                 .height(30.dp),
                             verticalAlignment = Alignment.CenterVertically,
